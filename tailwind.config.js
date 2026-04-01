@@ -1,0 +1,77 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "primary-fixed-dim": "#9ccaff",
+        "tertiary-container": "#246248",
+        "on-background": "#191c1e",
+        "on-secondary-fixed-variant": "#534600",
+        "surface-dim": "#d8dadc",
+        "secondary-fixed": "#f9e287",
+        "surface-container-highest": "#e0e3e5",
+        "secondary": "#6e5e0d",
+        "secondary-fixed-dim": "#dcc66e",
+        "outline-variant": "#c1c7d1",
+        "tertiary-fixed": "#b1f0ce",
+        "surface-container-low": "#f2f4f6",
+        "primary-container": "#005b96",
+        "inverse-primary": "#9ccaff",
+        "surface-bright": "#f7f9fb",
+        "on-tertiary-container": "#9cdbba",
+        "secondary-container": "#f6df84",
+        "surface-container-lowest": "#ffffff",
+        "background": "#f7f9fb",
+        "tertiary-fixed-dim": "#95d4b3",
+        "outline": "#717781",
+        "on-surface-variant": "#414750",
+        "on-primary": "#ffffff",
+        "on-tertiary": "#ffffff",
+        "on-tertiary-fixed-variant": "#0e5138",
+        "primary": "#004370",
+        "inverse-on-surface": "#eff1f3",
+        "surface-variant": "#e0e3e5",
+        "surface-tint": "#12629d",
+        "error": "#ba1a1a",
+        "on-primary-fixed-variant": "#00497a",
+        "inverse-surface": "#2d3133",
+        "tertiary": "#024a31",
+        "on-error-container": "#93000a",
+        "on-tertiary-fixed": "#002114",
+        "on-error": "#ffffff",
+        "primary-fixed": "#d0e4ff",
+        "on-surface": "#191c1e",
+        "surface-container": "#eceef0",
+        "on-secondary": "#ffffff",
+        "on-primary-container": "#abd2ff",
+        "surface": "#f7f9fb",
+        "error-container": "#ffdad6",
+        "on-primary-fixed": "#001d35",
+        "on-secondary-container": "#726212",
+        "surface-container-high": "#e6e8ea",
+        "on-secondary-fixed": "#221b00"
+      },
+      fontFamily: {
+        "headline": ["Noto Serif", "serif"],
+        "body": ["Manrope", "sans-serif"],
+        "label": ["Manrope", "sans-serif"]
+      },
+      borderRadius: {
+        "DEFAULT": "0.25rem",
+        "lg": "0.5rem",
+        "xl": "0.75rem",
+        "full": "9999px"
+      },
+    },
+  },
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/container-queries')
+  ],
+}
