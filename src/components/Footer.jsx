@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="flex gap-8">
-            <Link to="#" className="font-body text-sm tracking-wide text-on-surface-variant dark:text-slate-400 hover:text-secondary hover:underline decoration-secondary decoration-2 underline-offset-4 transition-colors duration-200">
+            {/* <Link to="#" className="font-body text-sm tracking-wide text-on-surface-variant dark:text-slate-400 hover:text-secondary hover:underline decoration-secondary decoration-2 underline-offset-4 transition-colors duration-200">
               Privacy Policy
             </Link>
             <Link to="#" className="font-body text-sm tracking-wide text-on-surface-variant dark:text-slate-400 hover:text-secondary hover:underline decoration-secondary decoration-2 underline-offset-4 transition-colors duration-200">
@@ -21,7 +21,7 @@ const Footer = () => {
             </Link>
             <Link to="#" className="font-body text-sm tracking-wide text-on-surface-variant dark:text-slate-400 hover:text-secondary hover:underline decoration-secondary decoration-2 underline-offset-4 transition-colors duration-200">
               Contact Us
-            </Link>
+            </Link> */}
           </div>
           <p className="font-body text-sm tracking-wide text-on-surface-variant dark:text-slate-400 mt-4 md:mt-0">
             © {new Date().getFullYear()} Ceylon Eco Quest. All rights reserved.
